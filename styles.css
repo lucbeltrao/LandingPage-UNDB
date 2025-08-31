@@ -1,3 +1,7 @@
+/* Importação de Fontes */
+/* Importação de Fontes do Google */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 /* Estilos Gerais */
 * {
     margin: 0;
@@ -370,7 +374,8 @@ nav ul li a:hover::after {
 }
 
 .about h2, .members h2, .legacy h2 {
-    font-size: 42px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 36px;
     margin-bottom: 30px;
     text-align: center;
     color: #f0f0f0;
@@ -464,6 +469,12 @@ nav ul li a:hover::after {
 .legacy {
     padding: 100px 0;
     background-color: rgba(25, 25, 25, 0.8);
+    background-image: url('images/album3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    position: relative;
 }
 
 .albums {
@@ -475,7 +486,8 @@ nav ul li a:hover::after {
 }
 
 .albums h3 {
-    font-size: 28px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 24px;
     margin-bottom: 20px;
     color: #f0f0f0;
     text-align: center;
